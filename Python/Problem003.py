@@ -5,6 +5,6 @@ def main():
         while n % i == 0:
             n = n / i
         i = i + 1
-    print(n)
+    print(int(n))
 if __name__ == '__main__':
     main()
